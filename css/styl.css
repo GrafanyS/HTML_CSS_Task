@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    flex-direction: column;
+    min-height: 100vh;
+    position: relative;
+    min-height: 100%;
+    height: 100%;
+    margin: 0px auto;
+    padding: 0px;
+    background: #b3b4bb;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: aquamarine;
+    padding: 10px;
+    color: #fff;
+}
+
+.nav {
+    margin: 5px;
+    padding: 5px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    left: 0;
+    width: 100%;
+}
+
+header {
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    color: #fff;
+    background-color: aquamarine;
+}
+
+.main {
+    margin: 10px;
+    padding: 10px;
+    min-height: 100vh;
+    position: relative;
+}
+
+footer {
+    text-align: center;    
+    background-color: #abbaba;
+    display: flex;
+    justify-content: center;
+    color: blue;
+}
+
+.footer {
+    height: 40px;
+    display: flex;
+    position: absolute;
+    left: 0;
+    bottom: auto;
+    width: 100%;
+    background-color: aquamarine;
+}
+
+a[href^='mailto']::before {
+    content: '📧 ';
+}
+
+a[href^='tel']::before {
+    content: '📞 ';
+}
