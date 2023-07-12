@@ -7,7 +7,7 @@
     font-family: 'Poppins', sans-serif;
 }
 
-body {    
+body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
@@ -20,7 +20,8 @@ body {
 }
 
 :root {
-    --index: calc(1vw + 1vh) /*отношение ширины на высоту*/
+    --index: calc(1vw + 1vh)
+        /*отношение ширины на высоту*/
 }
 
 .container {
@@ -44,8 +45,9 @@ h1 {
 }
 
 .article-body {
-    margin: 10px 500px;
-    padding: 10px;
+    display: block;
+    height: 10vh;
+    padding: 100px;
     text-align: center;
     border: 5px solid #ccc;
     border-radius: 15px;
@@ -104,8 +106,9 @@ a {
 }
 
 li {
-    list-style-type: none; /* Убираем маркеры */
-   }
+    list-style-type: none;
+    /* Убираем маркеры */
+}
 
 .navigation_item:not(:last-child) {
     margin-inline: 35px;
@@ -137,13 +140,11 @@ li {
     width: 100%;
 }
 
-/* nav {
+.navigation_list {
     display: flex;
-    background-color: aquamarine;
-    padding: 10px;
-    color: #fff;
-    border-radius: 15px;
-} */
+    margin-right: 35px;
+    justify-content: space-between;
+}
 
 .header_navbar {
     justify-content: space-between;
@@ -151,8 +152,6 @@ li {
     left: 0;
     width: 100%;
 }
-
-
 
 .main {
     margin: 10px;
@@ -162,10 +161,9 @@ li {
 }
 
 form {
+    display: block;
     text-align: center;
-    padding: 10px;
-    margin: 10px;
-    margin: 100px 500px;
+    padding: 100px;
     text-align: center;
     border: 5px solid #ccc;
     border-radius: 15px;
