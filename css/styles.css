@@ -8,6 +8,7 @@
 }
 
 body {
+body {
     flex-direction: column;
     min-height: 100vh;
     position: relative;
@@ -38,6 +39,9 @@ h1 {
 }
 
 .article-body {
+    display: block;
+    height: 10vh;
+    padding: 100px;
     display: block;
     height: 10vh;
     padding: 100px;
@@ -164,7 +168,9 @@ li {
 
 form {
     display: block;
+    display: block;
     text-align: center;
+    padding: 100px;
     padding: 100px;
     text-align: center;
     border: 5px solid #ccc;
