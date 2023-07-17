@@ -184,12 +184,13 @@ h3 {
 .logo {
     /* border: saddlebrown 3px solid; */
     display: flex;
+    
 
 }
 
-.img__logo:nth-child {
+.img__logo {
+
     /* border: saddlebrown 3px solid; */
-    width: 217px;
-    height: 58px;
-    float: right;
+    margin-right: 70px;
+    
 }
