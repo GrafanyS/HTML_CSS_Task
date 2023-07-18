@@ -9,9 +9,8 @@
 }
 
 body {
-    display: block;
     background: var(--020-a-18, #020A18);
-    /* border: saddlebrown 3px solid; */
+    border: saddlebrown 3px solid;
 }
 
 img {
@@ -37,9 +36,9 @@ main {
 header {
     /* border: saddlebrown 3px solid; */
     display: block;
-    width: 100%;
-    width: 1920px;
-    height: 100px;
+    /* width: 100%; */
+    /* width: 1920px; */
+    /* height: 100px; */
     flex-shrink: 0;
     margin-bottom: 82px;
     margin-top: 40px;
