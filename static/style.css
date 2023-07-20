@@ -5,12 +5,12 @@
 @font-face {
     font-family: "Gilroy-SemiBold";
     src: url(../font/font2/Gilroy-Semibold.woff2);
-} 
+}
 
 @font-face {
     font-family: "Gilroy-Medium";
     src: url(../font/font2/Gilroy-Medium.woff2);
-} 
+}
 
 * {
     margin: 0;
@@ -120,7 +120,6 @@ main {
     font-size: 15px;
     line-height: 18px;
     border-radius: 50px;
-
 }
 
 .content__btn__a {
@@ -130,6 +129,7 @@ main {
     box-shadow: 4px 4px 8px rgba(242, 88, 34, 0.2);
     border-radius: 50px;
     color: #FFFFFF;
+    border: none;
 }
 
 .content__btn__a:hover {
