@@ -1,6 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap');
-@import url('https://fonts.cdnfonts.com/css/Gilroy-SemiBold');
-@import url('https://fonts.cdnfonts.com/css/Gilroy-Medium');
+/* @import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@600;800&display=swap'); */
+/* @import url('https://fonts.cdnfonts.com/css/Gilroy-SemiBold'); */
+/* @import url('https://fonts.cdnfonts.com/css/Gilroy-Medium'); */
+
+@font-face {
+    font-family: "Gilroy-SemiBold";
+    src: url(../font/font2/Gilroy-Semibold.woff2);
+} 
+
+@font-face {
+    font-family: "Gilroy-Medium";
+    src: url(../font/font2/Gilroy-Medium.woff2);
+} 
 
 * {
     margin: 0;
