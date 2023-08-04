@@ -8,14 +8,14 @@
 }
 
 html {
-    overflow-x: hidden;
+    overflow-x: hidden;  /* отключает горизонтальный скролл */
 }
 
 body {
     scroll-behavior: smooth;
     text-rendering: optimizeSpeed;
     background: #ffffff;
-    overflow-x: hidden;
+    overflow-x: hidden;  /* отключает горизонтальный скролл */
 }
 
 img {
