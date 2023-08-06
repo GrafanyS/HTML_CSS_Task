@@ -152,6 +152,7 @@ img {
     padding-top: 18px;
     padding-bottom: 19px;
     margin-left: 231px;
+    cursor: pointer;
 }
 
 .head__buttons {
@@ -225,6 +226,7 @@ span.h2pink {
 .top__card {
     position: relative;
     text-align: center;
+    cursor: pointer;
 }
 
 .top__card__big {
